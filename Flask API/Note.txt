@@ -1,0 +1,3 @@
+1. Rubah path pada app.py
+2. Buat dan aktifkan lingkungan virtual kalo diwindows 'venv\Scripts\activate' 
+3. Instal Flask dan TensorFlow : pip install Flask tensorflow
