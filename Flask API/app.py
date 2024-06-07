@@ -1,9 +1,10 @@
+""" FLASK """ 
+import os
 from flask import Flask, request, jsonify
 import tensorflow as tf
-from tensorflow.keras.models import load_model
+from tensorflow.python.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
-import os
 
 # Load the model
 model_path = 'models/model.h5'  # Update with the path to your model
