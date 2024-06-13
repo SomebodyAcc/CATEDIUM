@@ -14,7 +14,7 @@
   <li>Tiger</li>
 </ul>
 
-<h3>Format Repsonse:</h5>
+<h3>Format Response:</h5>
 <p>
   {
     requestId: 'hfu1id2fbis4dig4x',
@@ -27,4 +27,5 @@
 <p>
   The requestId property is used for API request monitoring, implementing the best practices response structure
   <a href='https://blog.postman.com/document-your-api-like-a-pro-postman-collection-best-practices/'>Postman Article</a>
+  <a href='https://www.youtube.com/watch?v=7WvSwO_vDbY'>Programmer Zaman Now</a>
 </p>
