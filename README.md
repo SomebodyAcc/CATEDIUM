@@ -15,14 +15,14 @@
 </ul>
 
 <h3>Format Repsonse:</h5>
-<code>
+<p>
   {
     requestId: 'hfu1id2fbis4dig4x',
     data: {
       class: 'CHEETAH'
     }
   }
-</code>
+</p>
 
 <p>
   The requestId property is used for API request monitoring, implementing the best practices response structure
