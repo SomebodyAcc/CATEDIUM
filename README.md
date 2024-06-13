@@ -1,6 +1,6 @@
 <h1>This is API Documentation for prediction cat breeds classes</h1>
 
-<h3>Classes of the breeds are:</h3> <br>
+<h3>Classes of the breeds are:</h3>
 <ul>
   <li>African Leopard</li>
   <li>Caracal</li>
@@ -13,7 +13,8 @@
   <li>Snow Leopard</li>
   <li>Tiger</li>
 </ul>
-<h3>Format Repsonse:</h5> <br>
+
+<h3>Format Repsonse:</h5>
 <code>
   {
     requestId: 'hfu1id2fbis4dig4x',
@@ -22,3 +23,8 @@
     }
   }
 </code>
+
+<p>
+  The requestId property is used for API request monitoring, implementing the best practices response structure
+  <a href='https://blog.postman.com/document-your-api-like-a-pro-postman-collection-best-practices/'>Postman Article</a>
+</p>
