@@ -13,8 +13,7 @@
   <li>Snow Leopard</li>
   <li>Tiger</li>
 </ul>
-<br>
-<h5>Format Repsonse:</h5> <br>
+<h3>Format Repsonse:</h5> <br>
 <code>
   {
     requestId: 'hfu1id2fbis4dig4x',
