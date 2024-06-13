@@ -5,6 +5,7 @@ import tensorflow as tf
 from tensorflow.python.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
+import uuid
 
 # Load the model
 model_path = 'models/model.h5'  # Update with the path to your model
@@ -46,10 +47,16 @@ def predict():
     predicted_class = np.argmax(prediction, axis=1)[0]
     class_name = class_labels[predicted_class]
 
+    # Generate UUID
+    uniqueId = uuid.uuid4().hex
+    
     # Return JSON response
     return jsonify({
-        'class': class_name
+        requestId: uniqueId,
+        data: {
+            'class': class_name
+        }
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
