@@ -54,7 +54,7 @@ def predict():
     return jsonify({
         requestId: uniqueId,
         data: {
-            class: class_name
+            'class': class_name
         }
     })
 
