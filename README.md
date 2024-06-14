@@ -14,6 +14,10 @@
   <li>Tiger</li>
 </ul>
 
+<h3>Endpoints:</h3>
+<h6>/</h6> -> home endpoint
+<h5>/api/predict</h5> -> predict endpoint
+
 <h3>Format Response:</h5>
 <p>
   {
