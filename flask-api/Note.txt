@@ -1,0 +1,4 @@
+0. Jika menggunakan windows buka CMD dan arahkan direktorinya ke folder Flask APi
+1. Buat dan aktifkan lingkungan virtual: 'venv\Scripts\activate' 
+2. Pada lingkungan virtual Instal Flask dan TensorFlow : pip install Flask tensorflow
+3. Pada lingkungan virtual Instal Pillow: pip install pillow
