@@ -21,7 +21,6 @@
 
 ![Alt Text](https://i.imgur.com/BCB6JOu.jpeg)
 
-<p>test</p>
 <p><strong>Part 1: Data Preprocessing</strong></p>
 <ul>
  <li>Imported necessary libraries such as TensorFlow and os.</li>
