@@ -1,6 +1,7 @@
-<h1>This is API Documentation for prediction cat breeds classes</h1>
+<h1>Catedium App</h1>
 
-<h3>Classes of the breeds are:</h3>
+<h3>Catedium is a mobile app that helps users distinguish between 10(Ten) types of large cats, like lions, tigers, and jaguars, which are often hard to tell apart. The app educates and aids in recognizing and understanding these cats' differences.</h3>
+<p>This app will classify 10 types of big cats with the following labels:</p>
 <ul>
   <li>African Leopard</li>
   <li>Caracal</li>
@@ -14,19 +15,25 @@
   <li>Tiger</li>
 </ul>
 
-<h3>Endpoints:</h3>
+<h2>Machine Learning Path</h2>
+
+<h3>We at Machine Learning Path have built a model for catedium with the following steps:</h3>
+![Alt Text](https://imgur.com/a/k4Yn4U2)
+<ul>
+  <li>African Leopard</li>
+  <li>Caracal</li>
+  <li>Cheetah</li>
+  <li>Clouded Leopard</li>
+  <li>Jaguar</li>
+  <li>Lion</li>
+  <li>Ocelot</li>
+  <li>Puma</li>
+  <li>Snow Leopard</li>
+  <li>Tiger</li>
+</ul>
 <h6>/</h6> -> home endpoint
 <h5>/api/predict</h5> -> predict endpoint
 
-<h3>Format Response:</h5>
-<p>
-  {
-    requestId: 'hfu1id2fbis4dig4x',
-    data: {
-      class: 'CHEETAH'
-    }
-  }
-</p>
 
 <p>
   The requestId property is used for API request monitoring, implementing the best practices response structure
