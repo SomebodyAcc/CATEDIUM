@@ -68,3 +68,8 @@
 ![Alt Text](https://i.imgur.com/jcitHK4.png)
 
 
+<h2>Mobile Developer Path</h2>
+<p>As a mobile developer path, we created a mobile application using Kotlin language with Android Studio. In this manufacture, it uses images as a benchmark to check which class the cat is in. When the image has been obtained from the camera or uploaded, the image will be sent to the fire that has been created. When the image is processed by the fire and returns the name of the cat class, the application will display information that matches the cat class.</p>
+
+![Alt Text](https://i.imgur.com/1HAtpza.png)
+
