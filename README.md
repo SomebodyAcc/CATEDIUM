@@ -21,47 +21,4 @@
 
 ![Alt Text](https://i.imgur.com/BCB6JOu.jpeg)
 
-<p><strong>Part 1: Data Preprocessing</strong></p>
-    <ul>
-        <li>Imported necessary libraries such as TensorFlow and os.</li>
-        <li>Accessed Google Drive to retrieve the dataset and extracted the dataset into the working directory.</li>
-        <li>Performed data augmentation and image normalization using <code>ImageDataGenerator</code>.</li>
-        <li>Created generators for the training, validation, and test sets.</li>
-    </ul>
-
-    <p><strong>Part 2: Model Building</strong></p>
-    <ul>
-        <li>Created a Convolutional Neural Network (CNN) model using TensorFlow's Sequential API.</li>
-        <li>Added several Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers.</li>
-        <li>Compiled the model with the 'adam' optimizer, 'categorical_crossentropy' loss function, and 'accuracy' metric.</li>
-    </ul>
-
-    <p><strong>Part 3: Model Training</strong></p>
-    <ul>
-        <li>Trained the model using data generators for the training and validation sets.</li>
-        <li>Set the number of epochs for training and monitored the model's performance on the validation set.</li>
-    </ul>
-
-    <p><strong>Part 4: Model Evaluation and Prediction</strong></p>
-    <ul>
-        <li>Evaluated the model's performance on the test set and displayed accuracy.</li>
-        <li>Saved the trained model in <code>.h5</code> and <code>SavedModel</code> formats.</li>
-        <li>Loaded the saved model for reuse.</li>
-        <li>Created a function to display sample images along with predictions and true labels.</li>
-    </ul>
-
-    <p><strong>Part 5: Testing to Unknown Data</strong></p>
-    <ul>
-        <li>Prepared test data from a zip file and created a generator for the test data.</li>
-        <li>Uploaded new images, processed them, and made predictions using the trained model.</li>
-        <li>Displayed the images along with the predicted class provided by the model.</li>
-    </ul>
-
-    <p><strong>Part 6: API</strong></p>
-    <ul>
-        <li>Implemented a REST API using Flask.</li>
-        <li>Loaded the trained CNN model and created a function to preprocess images.</li>
-        <li>Created an endpoint <code>/predict</code> that accepts image files, processes them, and provides predictions in JSON format.</li>
-        <li>Used Postman to test this endpoint.</li>
-        <li>Handed over the model and REST API to the Path Cloud team for deployment.</li>
-    </ul>
+<p>test</p>
