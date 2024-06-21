@@ -60,3 +60,8 @@
  <li>Used Postman to test this endpoint.</li>
  <li>Handed over the model and REST API to the Path Cloud team for deployment.</li>
 </ul>
+
+
+<h2>Cloud Computing Path</h2>
+<p>As a cloud computing path, we design backend services to bridge machine learning models and mobile applications. Starting from designing the response structure on the API, then deploying the backend application to Google Cloud Run and we also create a website version of the application.</p>
+![Alt Text](https://i.imgur.com/jcitHK4.png)
